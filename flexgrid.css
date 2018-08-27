@@ -81,8 +81,6 @@ html {
   margin-right: 12px;
 }
 
-
-
 /* Size definitions */
 
   .flex-con-4-16 {
@@ -90,7 +88,7 @@ html {
   }
   
     .col-4-16 {
-      width: 91.09%;
+      width: 91.08%;
     }
     
     .col-3-16 {
@@ -102,22 +100,33 @@ html {
     }
     
     .col-1-16 {
-      width: 19.43%;
+      width: 19.42%;
     }
     
 
 @media only screen and (min-width: 360px) {
 
   .flex-con-4-16 {
-    width: 95.9%;
+    width: 95.99%;
     max-width: 399px;
   }
   
     .col-4-16 {
-      width: 95.9%;
+      width: 91.98%;
     }
     
-
+    .col-3-16 {
+      width: 67.98%;
+    }
+    
+    .col-2-16 {
+      width: 43.98%;
+    }
+    
+    .col-1-16 {
+      width: 19.98%;
+    }
+    
 }
 
 
@@ -125,18 +134,52 @@ html {
 @media only screen and (min-width: 400px) {
 
   .flex-con-4-16 {
-    width: 96.6%;
+    width: 96.66%;
     max-width: 479px;
   }
+  
+    .col-4-16 {
+      width: 93.31%;
+    }
+    
+    .col-3-16 {
+      width: 69.15%;
+    }
+    
+    .col-2-16 {
+      width: 44.99%;
+    }
+    
+    .col-1-16 {
+      width: 20.82%;
+    }
+  
+    
   
 }
 
 @media only screen and (min-width: 480px) {
 
   .flex-con-4-16 {
-    width: 97.3%;
+    width: 97.32%;
     max-width: 599px;
   }
+  
+    .col-4-16 {
+      width: 94.65%;
+    }
+    
+    .col-3-16 {
+      width: 70.32%;
+    }
+    
+    .col-2-16 {
+      width: 45.99%;
+    }
+    
+    .col-1-16 {
+      width: 21.66%;
+    }
   
 }
 
