@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: #ddd;
+}
+
+.box {
+  height: 100px;
+  background: #fff;
+}
