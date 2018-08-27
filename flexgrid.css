@@ -186,79 +186,472 @@ html {
 @media only screen and (min-width: 600px) {
  
  .flex-con-8-16 {
-   width: 97.7%;
+   width: 97.77%;
    max-width: 719px;
  }
-  
+   .col-8-16 {
+      width: 95.54%;
+    }
+    
+    .col-7-16 {
+      width: 83.32%;
+    }
+    
+    .col-6-16 {
+      width: 71.10%;
+    }
+    
+    .col-5-16 {
+      width: 58.88%;
+    }
+ 
+   .col-4-16 {
+      width: 46.66%;
+    }
+    
+    .col-3-16 {
+      width: 34.44%;
+    }
+    
+    .col-2-16 {
+      width: 22.21%;
+    }
+    
+    .col-1-16 {
+      width: 9.99%;
+    }
+ 
 }
 
 @media only screen and (min-width: 720px) {
   
   .flex-con-8-24 {
-    width: 97.1%;
+    width: 97.13%;
     max-width: 839px;
   }
+  
+    .col-8-24 {
+      width: 94.27%;
+    }
+    
+    .col-7-24 {
+      width: 82.13%;
+    }
+    
+    .col-6-24 {
+      width: 69.99%;
+    }
+    
+    .col-5-24 {
+      width: 57.85%;
+    }
+ 
+   .col-4-24 {
+      width: 45.70%;
+    }
+    
+    .col-3-24 {
+      width: 33.56%;
+    }
+    
+    .col-2-24 {
+      width: 21.42%;
+    }
+    
+    .col-1-24 {
+      width: 9.28%;
+    }
   
 }
 
 @media only screen and (min-width: 840px) {
 
   .flex-con-12-24{
-    width: 97.4%;
+    width: 97.49%;
     max-width: 959px;
   }
+    .col-12-24 {
+      width: 94.99%;
+    }
+    
+    .col-11-24 {
+      width: 86.87%;
+    }
+    
+    .col-10-24 {
+      width: 78.74%;
+    }
+    
+    .col-9-24 {
+      width: 70.62%;
+    }
+    
+    .col-8-24 {
+      width: 62.49%;
+    }
+    
+    .col-7-24 {
+      width: 54.37%;
+    }
+    
+    .col-6-24 {
+      width: 46.24%;
+    }
+    
+    .col-5-24 {
+      width: 38.12%;
+    }
+ 
+   .col-4-24 {
+      width: 29.99%;
+    }
+    
+    .col-3-24 {
+      width: 21.87%;
+    }
+    
+    .col-2-24 {
+      width: 13.74%;
+    }
+    
+    .col-1-24 {
+      width: 5.62%;
+    }
+  
   
 }
 
 @media only screen and (min-width: 960px) {
 
   .flex-con-12-24{
-    width: 97.6%;
+    width: 97.65%;
     max-width: 1023px;
   }
+    .col-12-24 {
+      width: 95.30%;
+    }
+    
+    .col-11-24 {
+      width: 87.17%;
+    }
+    
+    .col-10-24 {
+      width: 79.03%;
+    }
+    
+    .col-9-24 {
+      width: 70.89%;
+    }
+    
+    .col-8-24 {
+      width: 62.75%;
+    }
+    
+    .col-7-24 {
+      width: 54.61%;
+    }
+    
+    .col-6-24 {
+      width: 46.48%;
+    }
+    
+    .col-5-24 {
+      width: 38.34%;
+    }
+ 
+   .col-4-24 {
+      width: 30.20%;
+    }
+    
+    .col-3-24 {
+      width: 22.06%;
+    }
+    
+    .col-2-24 {
+      width: 13.93%;
+    }
+    
+    .col-1-24 {
+      width: 5.79%;
+    }
   
 }
 
 @media only screen and (min-width: 1024px) {
 
   .flex-con-12-24{
-    width: 98.1%;
+    width: 98.12%;
     max-width: 1279px;
   }
+    .col-12-24 {
+      width: 96.24%;
+    }
+    
+    .col-11-24 {
+      width: 88.07%;
+    }
+    
+    .col-10-24 {
+      width: 79.89%;
+    }
+    
+    .col-9-24 {
+      width: 71.71%;
+    }
+    
+    .col-8-24 {
+      width: 63.53%;
+    }
+    
+    .col-7-24 {
+      width: 55.36%;
+    }
+    
+    .col-6-24 {
+      width: 47.18%;
+    }
+    
+    .col-5-24 {
+      width: 39.00%;
+    }
+ 
+   .col-4-24 {
+      width: 30.83%;
+    }
+    
+    .col-3-24 {
+      width: 22.65%;
+    }
+    
+    .col-2-24 {
+      width: 14.47%;
+    }
+    
+    .col-1-24 {
+      width: 6.30%;
+    }
   
 }
 
 @media only screen and (min-width: 1280px) {
 
   .flex-con-12-24{
-    width: 98.3%;
+    width: 98.33%;
     max-width: 1439px;
   }
+    .col-12-24 {
+      width: 96.66%;
+    }
+    
+    .col-11-24 {
+      width: 88.47%;
+    }
+    
+    .col-10-24 {
+      width: 80.27%;
+    }
+    
+    .col-9-24 {
+      width: 72.08%;
+    }
+    
+    .col-8-24 {
+      width: 63.88%;
+    }
+    
+    .col-7-24 {
+      width: 55.69%;
+    }
+    
+    .col-6-24 {
+      width: 47.49%;
+    }
+    
+    .col-5-24 {
+      width: 39.30%;
+    }
+ 
+   .col-4-24 {
+      width: 31.11%;
+    }
+    
+    .col-3-24 {
+      width: 22.91%;
+    }
+    
+    .col-2-24 {
+      width: 14.72%;
+    }
+    
+    .col-1-24 {
+      width: 6.52%;
+    }
   
 }
 
 @media only screen and (min-width: 1440px) {
 
   .flex-con-12-24{
-    width: 98.4%;
+    width: 98.49%;
     max-width: 1599px;
   }
+    .col-12-24 {
+      width: 96.99%;
+    }
+    
+    .col-11-24 {
+      width: 88.79%;
+    }
+    
+    .col-10-24 {
+      width: 80.58%;
+    }
+    
+    .col-9-24 {
+      width: 72.37%;
+    }
+    
+    .col-8-24 {
+      width: 64.16%;
+    }
+    
+    .col-7-24 {
+      width: 55.95%;
+    }
+    
+    .col-6-24 {
+      width: 47.74%;
+    }
+    
+    .col-5-24 {
+      width: 39.54%;
+    }
+ 
+   .col-4-24 {
+      width: 31.33%;
+    }
+    
+    .col-3-24 {
+      width: 23.12%;
+    }
+    
+    .col-2-24 {
+      width: 14.91%;
+    }
+    
+    .col-1-24 {
+      width: 6.70%;
+    }
    
 }
 
 @media only screen and (min-width: 1600px) {
 
   .flex-con-12-24{
-    width: 98.7%;
+    width: 98.74%;
     max-width: 1919px;
   }
+    .col-12-24 {
+      width: 97.49%;
+    }
+    
+    .col-11-24 {
+      width: 89.27%;
+    }
+    
+    .col-10-24 {
+      width: 81.04%;
+    }
+    
+    .col-9-24 {
+      width: 72.81%;
+    }
+    
+    .col-8-24 {
+      width: 64.58%;
+    }
+    
+    .col-7-24 {
+      width: 56.35%;
+    }
+    
+    .col-6-24 {
+      width: 48.12%;
+    }
+    
+    .col-5-24 {
+      width: 39.89%;
+    }
+ 
+   .col-4-24 {
+      width: 31.66%;
+    }
+    
+    .col-3-24 {
+      width: 23.43%;
+    }
+    
+    .col-2-24 {
+      width: 15.20%;
+    }
+    
+    .col-1-24 {
+      width: 6.97%;
+    }
    
 }
 
 @media only screen and (min-width: 1920px) {
 
   .flex-con-12-24 {
-    width: 98.7%;
+    width: 98.85%;
   }
+    .col-12-24 {
+      width: 97.71%;
+    }
+    
+    .col-11-24 {
+      width: 89.47%;
+    }
+    
+    .col-10-24 {
+      width: 81.23%;
+    }
+    
+    .col-9-24 {
+      width: 73.00%;
+    }
+    
+    .col-8-24 {
+      width: 64.76%;
+    }
+    
+    .col-7-24 {
+      width: 56.52%;
+    }
+    
+    .col-6-24 {
+      width: 48.28%;
+    }
+    
+    .col-5-24 {
+      width: 40.04%;
+    }
+ 
+   .col-4-24 {
+      width: 31.81%;
+    }
+    
+    .col-3-24 {
+      width: 23.57%;
+    }
+    
+    .col-2-24 {
+      width: 15.33%;
+    }
+    
+    .col-1-24 {
+      width: 7.09%;
+    }
 
 }
