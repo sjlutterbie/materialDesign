@@ -18,7 +18,7 @@ html {
 *
 */
 
-/* Set shared defaults */
+/* Set shared flex defaults */
 
 .flex-con-4-16, .flex-con-8-16,
 .flex-con-8-24, .flex-con-12-24 {
@@ -27,33 +27,82 @@ html {
   align-items: space-evenly;
 }
 
+/* Set shared flex-grow attributes */
+
+.col-1-16, .col-1-24 {
+  flex-grow: 1;
+}
+.col-2-16, .col-2-24 {
+  flex-grow: 2;
+}
+.col-3-16, .col-3-24 {
+  flex-grow: 3;
+}
+.col-4-16, .col-4-24 {
+  flex-grow: 4;
+}
+.col-5-16, .col-5-24 {
+  flex-grow: 5;
+}
+.col-6-16, .col-6-24 {
+  flex-grow: 6;
+}
+.col-7-16, .col-7-24 {
+  flex-grow: 7;
+}
+.col-8-16, .col-8-24 {
+  flex-grow: 8;
+}
+.col-9-16, .col-9-24 {
+  flex-grow: 9;
+}
+.col-10-16, .col-10-24 {
+  flex-grow: 10;
+}
+.col-11-16, .col-11-24 {
+  flex-grow: 11;
+}
+.col-12-16, .col-12-24 {
+  flex-grow: 12;
+}
+
 /* Set shared margins */
 
-.flex-con-4-16, .flex-con-8-16 {
+.flex-con-4-16, .flex-con-8-16, .col-1-16, .col-2-16, .col-3-16, .col-4-16,
+.col-5-16, .col-6-16, .col-7-16, .col-8-16 {
   margin-left: 8px;
   margin-right: 8px;
 }
 
-.flex-con-8-24, .flex-con-12-24 {
+.flex-con-8-24, .flex-con-12-24, .col-1-24, .col-2-24, .col-3-24, .col-4-24,
+.col-5-24, .col-6-24, .col-7-24, .col-8-24, .col-9-24, .col-10-24, .col-11-24,
+.col-12-24 {
   margin-left: 12px;
-  margin-right: 24px;
+  margin-right: 12px;
 }
+
+
 
 /* Size definitions */
 
   .flex-con-4-16 {
-    width: 95.5%;
-    flex-grow: 4;
+    width: 95.54%;
   }
   
     .col-4-16 {
-      width: 95.5%;
-      flex-grow: 4;
+      width: 91.09%;
+    }
+    
+    .col-3-16 {
+      width: 67.20%;
     }
     
     .col-2-16 {
-      width: 41%;
-      flex-grow: 2;
+      width: 43.31%;
+    }
+    
+    .col-1-16 {
+      width: 19.43%;
     }
     
 
@@ -67,7 +116,8 @@ html {
     .col-4-16 {
       width: 95.9%;
     }
-  
+    
+
 }
 
 
