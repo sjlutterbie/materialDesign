@@ -4,7 +4,9 @@
 
 html {
   width: 100%;
-  max-width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: stretch;
 }
 
 /* Flex containers
@@ -16,29 +18,55 @@ html {
 *
 */
 
-/* Container sizes */
+/* Set shared defaults */
 
+.flex-con-4-16, .flex-con-8-16,
+.flex-con-8-24, .flex-con-12-24 {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: space-evenly;
+}
 
-/* Column widths for growing screen sizes */
+/* Set shared margins */
+
+.flex-con-4-16, .flex-con-8-16 {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.flex-con-8-24, .flex-con-12-24 {
+  margin-left: 12px;
+  margin-right: 24px;
+}
+
+/* Size definitions */
 
   .flex-con-4-16 {
-    max-width: 359px;
-    width: 100%;
-    padding-left: 8px;
-    padding-right: 8px;
-    
+    width: 95.5%;
+    flex-grow: 4;
   }
   
- 
+    .col-4-16 {
+      width: 95.5%;
+      flex-grow: 4;
+    }
+    
+    .col-2-16 {
+      width: 41%;
+      flex-grow: 2;
+    }
+    
+
 @media only screen and (min-width: 360px) {
 
   .flex-con-4-16 {
-    width: 100%;
+    width: 95.9%;
     max-width: 399px;
-    padding-left: 8px;
-    padding-right: 8px;
-    
   }
+  
+    .col-4-16 {
+      width: 95.9%;
+    }
   
 }
 
@@ -47,11 +75,8 @@ html {
 @media only screen and (min-width: 400px) {
 
   .flex-con-4-16 {
-    width: 100%;
+    width: 96.6%;
     max-width: 479px;
-    padding-left: 8px;
-    padding-right: 8px;
-    
   }
   
 }
@@ -59,11 +84,8 @@ html {
 @media only screen and (min-width: 480px) {
 
   .flex-con-4-16 {
-    width: 100%;
+    width: 97.3%;
     max-width: 599px;
-    padding-left: 8px;
-    padding-right: 8px;
-    
   }
   
 }
@@ -71,10 +93,8 @@ html {
 @media only screen and (min-width: 600px) {
  
  .flex-con-8-16 {
-   width: 100%;
+   width: 97.7%;
    max-width: 719px;
-   padding-left: 8px;
-   padding-right: 8px;
  }
   
 }
@@ -82,10 +102,8 @@ html {
 @media only screen and (min-width: 720px) {
   
   .flex-con-8-24 {
-    width: 100%;
+    width: 97.1%;
     max-width: 839px;
-    padding-left: 12px;
-    padding-right: 12px;
   }
   
 }
@@ -93,10 +111,8 @@ html {
 @media only screen and (min-width: 840px) {
 
   .flex-con-12-24{
-    width: 100%;
+    width: 97.4%;
     max-width: 959px;
-    padding-left: 12px;
-    padding-right: 12px;
   }
   
 }
@@ -104,10 +120,8 @@ html {
 @media only screen and (min-width: 960px) {
 
   .flex-con-12-24{
-    width: 100%;
+    width: 97.6%;
     max-width: 1023px;
-    padding-left: 12px;
-    padding-right: 12px;
   }
   
 }
@@ -115,10 +129,8 @@ html {
 @media only screen and (min-width: 1024px) {
 
   .flex-con-12-24{
-    width: 100%;
+    width: 98.1%;
     max-width: 1279px;
-    padding-left: 12px;
-    padding-right: 12px;
   }
   
 }
@@ -126,10 +138,8 @@ html {
 @media only screen and (min-width: 1280px) {
 
   .flex-con-12-24{
-    width: 100%;
+    width: 98.3%;
     max-width: 1439px;
-    padding-left: 12px;
-    padding-right: 12px;
   }
   
 }
@@ -137,10 +147,8 @@ html {
 @media only screen and (min-width: 1440px) {
 
   .flex-con-12-24{
-    width: 100%;
+    width: 98.4%;
     max-width: 1599px;
-    padding-left: 12px;
-    padding-right: 12px;
   }
    
 }
@@ -148,10 +156,8 @@ html {
 @media only screen and (min-width: 1600px) {
 
   .flex-con-12-24{
-    width: 100%;
+    width: 98.7%;
     max-width: 1919px;
-    padding-left: 12px;
-    padding-right: 12px;
   }
    
 }
@@ -159,9 +165,7 @@ html {
 @media only screen and (min-width: 1920px) {
 
   .flex-con-12-24 {
-    width: 100%;
-    padding-left: 12px;
-    padding-right: 12px;
+    width: 98.7%;
   }
 
 }
